@@ -1,6 +1,6 @@
 # DQN-car-track — Quick Test README
 
-This repo contains a small test harness that loads a pre-trained DQN model and runs it on a simple car/track environment (rendered with Pygame). These steps reproduce the exact test you ran on macOS.
+This repo contains a small test harness that loads a pre-trained DQN model and runs it on a simple car/track environment (rendered with Pygame). 
 
 ## 1) Clone the repo
 
@@ -13,7 +13,7 @@ cd DQN-car-track
 
 ```bash
 python3 -m venv .venv
-source .venv/bin/activate  # on macOS/Linux
+# source .venv/bin/activate  # on macOS/Linux
 # .venv\Scripts\activate   # on Windows (PowerShell)
 ```
 
@@ -22,12 +22,6 @@ source .venv/bin/activate  # on macOS/Linux
 > If the repo includes a `requirements.txt`, do:
 ```bash
 pip install -r requirements.txt
-```
-
-If not, install the typical stack used in this test run:
-
-```bash
-pip install pygame keras tensorflow numpy
 ```
 
 > Notes:
